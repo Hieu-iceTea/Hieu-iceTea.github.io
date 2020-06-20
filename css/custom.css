@@ -1,1 +1,6 @@
 /* Your custom css code goes here */
+
+.probootstrap-burger-menu i, .probootstrap-burger-menu i::before, .probootstrap-burger-menu i::after {
+    color: white;
+    background-color: white;
+}
