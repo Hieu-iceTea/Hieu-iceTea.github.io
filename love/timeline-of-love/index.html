@@ -543,7 +543,7 @@
     </script>
     </div>
 
-    <audio  src="911.mp3" preload="auto" type="audio/mp3" autoplay loop=""></audio>
+    <!-- <audio  src="911.mp3" preload="auto" type="audio/mp3" autoplay loop=""></audio> -->
 
     <!-- <audio id="bgmMusic" type="audio/mp3" autoplay loop id="playAudio">
         <source src="911.mp3">
@@ -555,6 +555,13 @@
 
     <!-- <iframe src="audio/911.mp3" allow="autoplay" style="display:none" id="iframeAudio">
     </iframe> -->
+
+    <iframe src="audio/911.mp3" allow="autoplay" style="display:none" id="iframeAudio">
+    </iframe>
+
+    <audio autoplay loop id="playAudio">
+        <source src="audio/911.mp3">
+    </audio>
 
     <script src="public/js/anijs-min.js"></script>
     <script src="public/js/anijs-helper-scrollreveal-min.js"></script>
@@ -576,13 +583,15 @@
                     $(".heart").removeClass('heartAnimation');
                 }, 1000);
             });
-            var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
 
+            var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
             if (!isChrome) {
-                //$('#iframeAudio').remove()
-            } else {
-                //$('#playAudio').remove() //just to make sure that it will not have 2x audio in the background 
+                $('#iframeAudio').remove()
             }
+            else {
+                $('#playAudio').remove() // just to make sure that it will not have 2x audio in the background 
+            }
+
         });
 
 
