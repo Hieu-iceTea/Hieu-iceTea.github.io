@@ -8,13 +8,13 @@
     <link rel="shortcut icon" type="image/png" href="images/favicon.ico" />
 
     <!-- Style Sheet -->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
     <!-- My Style Sheet -->
     <link rel="stylesheet" type="text/css" href="css/myStyle.css" />
@@ -53,7 +53,7 @@
                             <h2 class="w3-tag w3-teal w3-round">Hiếu iceTea</h2>
                         </div>
                     </div>
-                    <div class="w3-container">
+                    <div class="w3-container mt-3">
                         <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Lập Trình Viên, Kỹ
                             Sư Tự Động Hoá, IOT</p>
                         <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Thanh Xuân, Hà Nội, VN
@@ -142,7 +142,7 @@
                         <ul>
                             <li>Mong muốn được làm việc đúng với sở thích & năng lực bản thân để cống hiến, học hỏi &
                                 gắn bó lâu dài.</li>
-                            <li>Tìm hiểu và nghiên cứu sâu hơn về tự động hóa, lập trình phần mềm. Nỗ lực học hỏi đồng
+                            <li>Tìm hiểu và nghiên cứu sâu hơn về lập trình phần mềm, tự động hóa. Nỗ lực học hỏi đồng
                                 thời tích lũy kinh nghiệm.</li>
                             <li>Rèn luyện kỹ các năng mềm, kỹ năng làm việc nhóm; Thiết kế & lập trình phần mềm, hoàn
                                 thiện phần cứng.</li>
@@ -156,9 +156,40 @@
 
                         <h5 class="w3-opacity"><b>Thành tích & Giải thưởng</b></h5>
                         <ul>
-                            <li>Giải nhất ROBOCON 2018.</li>
-                            <li>Nhiều đề tài nghiên cứu khoa học sinh viên.</li>
-                            <li>Nhiều chứng nhận tham gia hoạt động tình nguyện sinh viên.</li>
+                            <li>
+                                Giải nhất ROBOCON 2018.
+
+                                <!-- Button trigger modal -->
+                                <a class="" style="outline: none; color: #009688;" data-toggle="modal"
+                                    href="#exampleModal">
+                                    <i class="fa fa-image" data-toggle="tooltip" title="Hình ảnh"
+                                        data-placement="bottom"></i>
+                                    view
+                                </a>
+
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModal" tabindex="-1"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-lg modal-dialog-centered">
+                                        <div class="modal-content">
+                                            <div class="modal-header" style="background-color: #f2f2f2;">
+                                                <h5 class="modal-title" id="exampleModalLabel">Hình ảnh</h5>
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                    aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <img src="images/GiayKhen_GiaiNhatRobotcup_Hieu-iceTea.jpg" width="100%"
+                                                    alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>Nhiều đề tài nghiên cứu khoa học.</li>
+                            <li>Nhiều chứng nhận tham gia hoạt động tình nguyện.</li>
                         </ul>
                     </div>
                     <br>
@@ -354,20 +385,21 @@
     </div>
 
     <footer class="w3-container w3-teal w3-center w3-margin-top">
-        <p>Tìm tôi trên mạng xã hội sau.</p>
+        <p class="mt-3">Tìm tôi trên mạng xã hội sau.</p>
 
         <a target="_blank" style="text-decoration: none; margin-right: 5px" href="http://facebook.com/Hieu.iceTea"
-            class="fa fa-facebook-official w3-hover-opacity" title="Hiếu iceTea"></a>
+            class="fa fa-facebook-official w3-hover-opacity hover-white" title="Hiếu iceTea"></a>
         <a target="_blank" style="text-decoration: none; margin-right: 5px" href="http://github.com/Hieu-iceTea"
-            class="fa fa-github  w3-hover-opacity" title="Hieu-iceTea"></a>
-        <a target="_blank" style="text-decoration: none; margin-right: 5px" class="fa fa-envelope w3-hover-opacity"
+            class="fa fa-github  w3-hover-opacity hover-white" title="Hieu-iceTea"></a>
+        <a target="_blank" style="text-decoration: none; margin-right: 5px"
+            class="fa fa-envelope w3-hover-opacity hover-white"
             href="mailto:Hieu.iceTea@gmail.com?subject=Feedback%20My%20Website%20On%20Github%20Page%20(Hieu%20iceTea)&cc=DinhHieu8896@gmail.com;HieuNDth1908028@fpt.edu.vn&bcc=HieuNDth1908028@fpt.edu.vn"
             title="Hieu.iceTea@gmail.com"></a>
         <a target="_blank" style="text-decoration: none; margin-right: 5px" href="skype:live:hieu.icetea?chat"
-            class="fa fa-skype w3-hover-opacity" data-toggle="tooltip " data-placement="bottom "
+            class="fa fa-skype w3-hover-opacity hover-white" data-toggle="tooltip " data-placement="bottom "
             title="Hieu.iceTea@hotmail.com "></a>
         <a target="_blank" style="text-decoration: none" href="https://youtube.com/HieuiceTea88"
-            class="fa fa-youtube-play w3-hover-opacity" data-toggle="tooltip " data-placement="bottom "
+            class="fa fa-youtube-play w3-hover-opacity hover-white" data-toggle="tooltip " data-placement="bottom "
             title="Youtube"></a>
 
         <!-- <a target="_blank" style="text-decoration: none;" href="https://www.instagram.com/hieu_icetea" class="fa fa-instagram w3-hover-opacity" data-toggle="tooltip " data-placement="bottom " title="Instagram"></a>
@@ -377,11 +409,9 @@
         <i class="fa fa-twitter w3-hover-opacity"></i>
         <i class="fa fa-linkedin w3-hover-opacity"></i> -->
 
-        <p>Cung cấp bởi <a href="https://FB.com/Hieu.iceTea" target="_blank"
+        <p class="mt-3">Cung cấp bởi <a href="https://FB.com/Hieu.iceTea" target="_blank" class="hover-white"
                 title="Connect to my Facebook (Hiếu iceTea)">Hiếu iceTea</a></p>
     </footer>
-
-
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
