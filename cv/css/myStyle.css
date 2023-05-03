@@ -40,3 +40,7 @@ html {
 .hover-white:hover {
     color: white;
 }
+
+a.link-hover-color-teal:hover {
+    color: #009688;
+}
